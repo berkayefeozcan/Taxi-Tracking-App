@@ -20,6 +20,10 @@
 ## Launch Server 
 - execute this command : npm start in server folder.
 
+## Queries
+- List the 5 days with the most passengers and the total number of passengers. (En fazla yolcu taşınan 5 günü ve toplam yolcu sayılarını listeleyiniz.)
+- What is the number of vehicles departing from a specific location between two dates? (dates and location must be selected) -İki tarih arasInda belirli bir lokasyondan hareket eden araç sayısı kaçtır? (tarihler ve lokasyon seçilebilmeli) -
+- Draw the route of the longest trip on a given day (Belirli bir günde en uzun seyahatin harita üstünde yolunu çiziniz )
 ## Özetçe 
 Bu proje kapsaminda bulut bilişim ve map api kullanarak android platformunda bir uygulama geliştirmemiz beklenmektedir. Taksi gezinge (trajectory) verileri kullanılarak android platformunda farklı sorguların yapılabildiği bir uygulama geliştirmemiz amaçlanmaktadır. Biz de bulut bilişim olarak verilerimizi veri tabanında saklamak için mongodb veri tabanını seçtik. Server side kodumuzu da bizim için daha uygun bir platform olan heroku’ya deploy ettik. Bu projede bulut bilişim teknolojilerini kullanarak nasıl mobil bir uygulamayı geliştireceğimizi görmüş olduk.
 
