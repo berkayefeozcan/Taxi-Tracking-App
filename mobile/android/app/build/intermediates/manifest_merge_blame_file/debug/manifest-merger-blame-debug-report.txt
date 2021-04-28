@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taxitracking"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->[:react-native-mapbox-gl_maps] C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+14-->[:react-native-mapbox-gl_maps] C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:react-native-maps] C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+15-->[:react-native-maps] C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+16
+17    <uses-feature
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:9:5-11:35
+18        android:glEsVersion="0x00020000"
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:10:9-41
+19        android:required="true" />
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:11:9-32
+20    <uses-feature
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:12:5-14:36
+21        android:name="android.hardware.wifi"
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:13:9-45
+22        android:required="false" />
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:14:9-33
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:17:5-79
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\904e04804dcf57c8029bdc7456eb1000\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:17:22-76
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:12:5-68
+25-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:12:22-65
+26
+27    <application
+27-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:6:5-23:19
+28        android:name="com.taxitracking.MainApplication"
+28-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:7:7-38
+29        android:allowBackup="false"
+29-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:10:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:9:7-41
+33        android:label="@string/app_name"
+33-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:8:7-39
+34        android:theme="@style/AppTheme"
+34-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:11:7-38
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\debug\AndroidManifest.xml:8:9-44
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\debug\AndroidManifest.xml:11:9-86
+36-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\debug\AndroidManifest.xml:11:19-83
+37        <activity
+37-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:12:7-22:18
+38            android:name="com.taxitracking.MainActivity"
+38-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:13:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+39-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:15:9-86
+40            android:label="@string/app_name"
+40-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:14:9-41
+41            android:launchMode="singleTask"
+41-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:16:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:17:9-51
+43            <intent-filter>
+43-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:18:9-21:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:19:13-65
+44-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:19:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:20:13-73
+46-->C:\Users\berkayEfe\Desktop\Taxi-Tracking\mobile\android\app\src\main\AndroidManifest.xml:20:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:18:9-22:39
+51            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+51-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:19:13-93
+52            android:authorities="com.taxitracking.mapboxtelemetryinitprovider"
+52-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:20:13-79
+53            android:exported="false"
+53-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:21:13-37
+54            android:initOrder="100" />
+54-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:22:13-36
+55
+56        <service
+56-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:24:9-26:72
+57            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+57-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:25:13-92
+58            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+58-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\979cb87c68ad9ccc041dd8e3425f8d85\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:26:13-69
+59        <uses-library
+59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+60            android:name="org.apache.http.legacy"
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+61            android:required="false" />
+61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\berkayEfe\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>

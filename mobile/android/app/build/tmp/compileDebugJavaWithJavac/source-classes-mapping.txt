@@ -1,0 +1,14 @@
+com/taxitracking/MainActivity.java
+ com.taxitracking.MainActivity
+com/taxitracking/MainApplication.java
+ com.taxitracking.MainApplication
+ com.taxitracking.MainApplication$1
+com/taxitracking/BuildConfig.java
+ com.taxitracking.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/taxitracking/ReactNativeFlipper.java
+ com.taxitracking.ReactNativeFlipper
+ com.taxitracking.ReactNativeFlipper$1
+ com.taxitracking.ReactNativeFlipper$2
+ com.taxitracking.ReactNativeFlipper$2$1

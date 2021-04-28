@@ -1,0 +1,60 @@
+# OSX
+#
+mobile/.DS_Store
+
+# Xcode
+#
+mobile/build/
+mobile/*.pbxuser
+mobile/!default.pbxuser
+mobile/*.mode1v3
+mobile/!default.mode1v3
+mobile/*.mode2v3
+mobile/!default.mode2v3
+mobile/*.perspectivev3
+mobile/!default.perspectivev3
+mobile/xcuserdata
+mobile/*.xccheckout
+mobile/*.moved-aside
+mobile/DerivedData
+mobile/*.hmap
+mobile/*.ipa
+mobile/*.xcuserstate
+
+# Android/IntelliJ
+#
+mobile/build/
+mobile/idea
+mobile/.gradle
+mobile/local.properties
+mobile/*.iml
+
+# node.js
+#
+mobile/node_modules/
+server/node_modules/
+mobile/npm-debug.log
+mobile/yarn-error.log
+
+# BUCK
+mobile/buck-out/
+mobile/\.buckd/
+mobile/*.keystore
+mobile/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+mobile/*/fastlane/report.xml
+mobile/*/fastlane/Preview.html
+mobile/*/fastlane/screenshots
+
+# Bundle artifact
+mobile/*.jsbundle
+
+# CocoaPods
+mobile/ios/Pods/

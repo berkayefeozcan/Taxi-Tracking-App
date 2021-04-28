@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaxiTracking.iml" filepath="$PROJECT_DIR$/.idea/modules/TaxiTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TaxiTracking.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TaxiTracking.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2027106729/TaxiTracking.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/2027106729/TaxiTracking.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1272978553/TaxiTracking.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1272978553/TaxiTracking.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1752712400/TaxiTracking.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1752712400/TaxiTracking.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/70913281/TaxiTracking.react-native-mapbox-gl_maps.iml" filepath="$PROJECT_DIR$/.idea/modules/70913281/TaxiTracking.react-native-mapbox-gl_maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/919617955/TaxiTracking.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/919617955/TaxiTracking.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-779602123/TaxiTracking.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-779602123/TaxiTracking.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1199613164/TaxiTracking.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1199613164/TaxiTracking.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-78067815/TaxiTracking.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-78067815/TaxiTracking.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1610818289/TaxiTracking.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1610818289/TaxiTracking.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/174303910/TaxiTracking.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/174303910/TaxiTracking.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
